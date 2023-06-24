@@ -11,6 +11,7 @@ repositories {
 
 dependencies {
     implementation 'org.apache.kafka:kafka-clients:2.8.2'
+    implementation 'org.slf4j:slf4j-simple:2.0.3' //추가만 해도 kafka producer 생성 시, 설정된 값들이 로그로 찍힌다.(INFO)
 }
 
 test {
