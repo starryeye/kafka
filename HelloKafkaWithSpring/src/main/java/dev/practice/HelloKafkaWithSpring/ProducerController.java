@@ -26,4 +26,12 @@ public class ProducerController {
 
         return String.format("Published a message with callback : %s", message);
     }
+
+    @PostMapping("/publishMyMessage")
+    public String publishMyMessage(MyMessage message) {
+
+        kafkaProduceService.sendMyMessage(message);
+
+        return String.format("Published a message JSON : %s", message);
+    }
 }

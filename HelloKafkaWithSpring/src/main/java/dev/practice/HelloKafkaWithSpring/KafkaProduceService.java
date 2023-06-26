@@ -11,9 +11,10 @@ import java.util.concurrent.CompletableFuture;
 @RequiredArgsConstructor
 public class KafkaProduceService {
 
-    private static final String TOPIC_NAME = "topic5 ";
+    private static final String TOPIC_NAME = "topic5";
 
     private final KafkaTemplate<String, String> kafkaTemplate;
+    private final KafkaTemplate<String, MyMessage> newKafkaTemplate;
 
     public void send(String message) {
         kafkaTemplate.send(TOPIC_NAME, message);
@@ -39,5 +40,12 @@ public class KafkaProduceService {
                     System.out.printf("Failed to send message : %s, cause : %s%n", message, e.getMessage());
                     return null;
                 });
+    }
+
+    /**
+     * 객체를 Json 으로 변환하여 발행한다.
+     */
+    public void sendMyMessage(MyMessage message) {
+        newKafkaTemplate.send(TOPIC_NAME, message);
     }
 }
