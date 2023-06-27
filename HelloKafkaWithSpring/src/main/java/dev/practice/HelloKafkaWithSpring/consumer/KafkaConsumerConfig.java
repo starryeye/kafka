@@ -40,6 +40,12 @@ public class KafkaConsumerConfig {
     /**
      * ConcurrentKafkaListenerContainerFactory 빈 등록
      * ConcurrentKafkaListenerContainerFactory 빈을 통해 이벤트를 수신할 수 있다.
+     *
+     * TODO
+     * 아래는 하나의 Group_id 단위로 설정하는 것으로 생각된다.
+     * - setConcurrency() 메서드의 의미
+     * - getContainerProperties().setPollTimeout() 메서드의 의미
+     * - etc..
      */
     @Bean
     public ConcurrentKafkaListenerContainerFactory<String, String> concurrentKafkaListenerContainerFactory() {
