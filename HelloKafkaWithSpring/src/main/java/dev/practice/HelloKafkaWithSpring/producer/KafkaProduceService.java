@@ -1,5 +1,6 @@
-package dev.practice.HelloKafkaWithSpring;
+package dev.practice.HelloKafkaWithSpring.producer;
 
+import dev.practice.HelloKafkaWithSpring.MyMessage;
 import lombok.RequiredArgsConstructor;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.SendResult;

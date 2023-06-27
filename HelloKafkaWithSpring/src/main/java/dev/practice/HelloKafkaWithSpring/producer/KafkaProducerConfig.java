@@ -1,5 +1,6 @@
-package dev.practice.HelloKafkaWithSpring;
+package dev.practice.HelloKafkaWithSpring.producer;
 
+import dev.practice.HelloKafkaWithSpring.MyMessage;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.context.annotation.Bean;

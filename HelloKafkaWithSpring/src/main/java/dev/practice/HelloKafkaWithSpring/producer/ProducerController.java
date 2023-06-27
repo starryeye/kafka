@@ -1,8 +1,8 @@
-package dev.practice.HelloKafkaWithSpring;
+package dev.practice.HelloKafkaWithSpring.producer;
 
+import dev.practice.HelloKafkaWithSpring.MyMessage;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
