@@ -1,7 +1,7 @@
 # kafka
 Kafka study
 
-# Projects
+## Projects
 - HelloKafkaWithJava
   - Java and Kafka
   - Producer, Consumer
@@ -9,7 +9,7 @@ Kafka study
   - Spring and Kafka
   - Producer, Consumer
 
-# Dependency
+## Dependency
 - Java 17
 - Spring Boot 3.x
 - Spring for Apache Kafka
