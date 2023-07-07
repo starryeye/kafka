@@ -14,14 +14,15 @@ public class CheckoutProducer {
 
     private final KafkaTemplate<String, CheckoutEvent> kafkaTemplate;
 
+    //kafka 의 Json Serializer 는 Record Typer 을 지원하는지 확인 필요
+    //kafka 의 Json Serializer 는 LocalDateTime 을 지원하는지 확인 필요
     public void publishToKafka(CheckoutEvent checkoutEvent) {
         try{
             kafkaTemplate.send(CHECKOUT_COMPLETE_TOPIC_NAME, checkoutEvent);
             log.info("CheckoutProducer.publishToKafka Success");
         } catch (Exception e) {
-            log.error("CheckoutProducer.publishToKafka", e);
+            log.error("CheckoutProducer.publishToKafka Fail", e);
             e.printStackTrace();
         }
-
     }
 }
