@@ -1,6 +1,6 @@
-package dev.practice.shipment;
+package dev.practice.shipment.service;
 
-import java.time.LocalDateTime;
+import dev.practice.shipment.repository.ShipmentEntity;
 
 public record CheckoutEvent(
         Long checkoutId,

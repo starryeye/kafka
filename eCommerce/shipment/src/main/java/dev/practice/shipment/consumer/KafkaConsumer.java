@@ -1,7 +1,9 @@
-package dev.practice.shipment;
+package dev.practice.shipment.consumer;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import dev.practice.shipment.service.CheckoutEvent;
+import dev.practice.shipment.service.ShipmentService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;

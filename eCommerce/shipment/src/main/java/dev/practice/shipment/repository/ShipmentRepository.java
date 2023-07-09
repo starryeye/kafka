@@ -1,4 +1,4 @@
-package dev.practice.shipment;
+package dev.practice.shipment.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

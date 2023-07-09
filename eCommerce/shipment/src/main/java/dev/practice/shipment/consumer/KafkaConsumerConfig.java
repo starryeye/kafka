@@ -1,4 +1,4 @@
-package dev.practice.shipment;
+package dev.practice.shipment.consumer;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;

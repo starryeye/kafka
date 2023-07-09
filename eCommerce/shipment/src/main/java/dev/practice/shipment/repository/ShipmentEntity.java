@@ -1,4 +1,4 @@
-package dev.practice.shipment;
+package dev.practice.shipment.repository;
 
 import jakarta.persistence.*;
 import lombok.Builder;
