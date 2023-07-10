@@ -28,6 +28,8 @@ public class CheckoutService {
         log.info("saveToDataBase");
         CheckoutEntity persistenceEntity = checkoutRepository.save(checkoutDto.toEntity());
 
+        log.info("saveToDataBase success");
+
         checkoutDto.setCheckoutId(persistenceEntity.getCheckoutId());
         checkoutDto.setCreatedAt(persistenceEntity.getCreatedAt());
     }
