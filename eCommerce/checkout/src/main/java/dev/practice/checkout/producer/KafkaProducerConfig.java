@@ -15,7 +15,7 @@ import java.util.Map;
 @Configuration
 public class KafkaProducerConfig {
 
-    private static final String BOOTSTRAP_SERVER = "localhost:9092";
+    private static final String BOOTSTRAP_SERVER = "localhost:64624";
 
     @Bean
     public ProducerFactory<String, CheckoutEvent> producerFactory() {
