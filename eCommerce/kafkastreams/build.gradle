@@ -26,7 +26,7 @@ dependencies {
 	implementation 'org.apache.kafka:kafka-streams'
 	implementation 'org.springframework.kafka:spring-kafka'
 
-//	implementation 'com.jayway.jsonpath:json-path:2.8.0' //jackson 같은 Json 을 다루는 라이브러리
+	implementation 'com.jayway.jsonpath:json-path:2.8.0' //jackson 같은 Json 을 다루는 라이브러리
 
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
