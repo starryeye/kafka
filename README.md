@@ -17,6 +17,8 @@ Kafka study
   - kafkastreams
     - kafka streams 기능을 구현
     - checkout 이 produce 한 kafka 메시지를 consume 하여 새로운 메시지를 produce
+- Producer
+  - Java with Kafka Producer 전반
 
 ## Dependency
 - Java 17
