@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // apple silicon 을 사용할 경우 (m1 이상), RocksDB 6.29.4.1 버전 이상을 써야한다.
+    // https://github.com/facebook/rocksdb/issues/7720
+    implementation 'org.apache.kafka:kafka-streams:3.2.0' //RocksDB 6.29.4.1 버전이 포함됨
+    implementation 'org.slf4j:slf4j-simple:2.0.7' //추가만 해도 kafka producer 생성 시, 설정된 값들이 로그로 찍힌다.(INFO)
+}
+
+test {
+    useJUnitPlatform()
+}
