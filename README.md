@@ -21,6 +21,12 @@ Kafka study
 - 2회차 study
   - Producer
     - Java with Kafka Producer 전반
+  - Consumer
+    - Java with Kafka Consumer 전반
+  - Streams
+    - Java with Kafka Streams 전반
+      - StreamsDSL
+        - KStream, KTable, GlobalKTable
 
 ## Dependency
 - Java 17
