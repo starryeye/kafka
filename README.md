@@ -37,3 +37,11 @@ Kafka study
 - Spring Data Jpa
 - thymeleaf
 - h2
+
+## Posting
+- [kafka 1](https://starryeye.tistory.com/183)
+- [kafka 2](https://starryeye.tistory.com/184)
+- [kafka 3](https://starryeye.tistory.com/185)
+- [kafka 4](https://starryeye.tistory.com/188)
+- [kafka 5](https://starryeye.tistory.com/189)
+- [kafka 6](https://starryeye.tistory.com/190)
