@@ -27,6 +27,10 @@ Kafka study
     - Java with Kafka Streams 전반
       - StreamsDSL
         - KStream, KTable, GlobalKTable
+       
+- 타 리포지토리
+  - [spring-webflux](https://github.com/starryeye/spring-webflux)
+    - Spring Cloud Stream + kafka
 
 ## Dependency
 - Java 17
