@@ -31,6 +31,8 @@ Kafka study
 - 타 리포지토리
   - [spring-webflux](https://github.com/starryeye/spring-webflux)
     - Spring Cloud Stream + kafka
+  - [hellogram](https://github.com/starryeye/hellogram)
+    - Spring Cloud Stream + kafka
 
 ## Dependency
 - Java 17
